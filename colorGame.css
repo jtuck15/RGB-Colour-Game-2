@@ -32,7 +32,7 @@ body {
 }
 
 #container {
-    margin: 20px auto;
+    margin: 12px auto;
     max-width: 600px;
 }
 
@@ -45,7 +45,7 @@ h1 {
     margin: 0;
     font-weight: 800;
     text-transform: uppercase;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 #colorDisplay {
@@ -238,6 +238,10 @@ button.floating-btn:hover {
     text-decoration: none;
 }
 
+/* RESPONSIVE DESIGN */
+
+/* social panel resizing for mobile and tablet devices */
+
 @media screen and (max-width: 480px) {
 
     .social-panel-container.visible {
@@ -249,17 +253,27 @@ button.floating-btn:hover {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .social-panel {
+        height: 150px;
+        width: 348px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     button {
         background-color: white;
     }
 }
 
+/* container resizing for mobile and tablet devices */
+
 @media screen and (max-width: 690px) {
     #container {
         max-width: 450px;
     }
 }
+
 
 @media screen and (max-width: 490px) {
     #container {
@@ -270,9 +284,8 @@ button.floating-btn:hover {
     }
 }
 
-@media screen and (max-width: 400px) {
-    .social-panel {
-        height: 150px;
-        width: 348px;
+@media screen and (max-width: 450px) {
+    #container {
+        max-width: 350px;
     }
 }
