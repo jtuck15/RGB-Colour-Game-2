@@ -115,3 +115,16 @@ function randomColor() {
     var b = Math.floor(Math.random() * 256);
     return "rgb(" + r + ", " + g + ", " + b + ")";
 }
+
+// SOCIAL PANEL JS
+var floating_btn = document.querySelector('.floating-btn');
+var close_btn = document.querySelector('.close-btn');
+var social_panel_container = document.querySelector('.social-panel-container');
+
+floating_btn.addEventListener('click', function() {
+    social_panel_container.classList.toggle('visible')
+});
+
+close_btn.addEventListener('click', function () {
+    social_panel_container.classList.remove('visible')
+});
