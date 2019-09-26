@@ -269,3 +269,10 @@ button.floating-btn:hover {
         font-size: 1.5em;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .social-panel {
+        height: 150px;
+        width: 348px;
+    }
+}

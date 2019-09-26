@@ -133,7 +133,7 @@ close_btn.addEventListener('click', function () {
 $(document).ready(function () {
 
     // FADING THE HEADING 
-    $("#fade").delay(800).animate({
+    $("#fade").delay(1000).animate({
         opacity: 1
     }, 2000);
 
