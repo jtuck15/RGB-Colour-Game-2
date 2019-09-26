@@ -128,3 +128,13 @@ floating_btn.addEventListener('click', function() {
 close_btn.addEventListener('click', function () {
     social_panel_container.classList.remove('visible')
 });
+
+// JQUERY
+$(document).ready(function () {
+
+    // FADING THE HEADING 
+    $("#fade").delay(800).animate({
+        opacity: 1
+    }, 2000);
+
+});

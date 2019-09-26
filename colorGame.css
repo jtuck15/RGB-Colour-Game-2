@@ -6,6 +6,13 @@ body {
     font-family: "Dosis";
 }
 
+/* Make headings fade in when the page is loaded */
+
+#fade {
+    opacity: 0;
+}
+
+
 #stripe {
     background-color: white;
     height: 30px;
