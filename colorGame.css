@@ -96,7 +96,8 @@ button:hover {
 }
 
 .social-panel {
-    background-color: #fff;
+    background: rgb(229, 46, 113);
+    background: linear-gradient(135deg, rgba(229, 46, 113, 1) 0%, rgba(252, 176, 69, 1) 100%);
     border-radius: 16px;
     box-shadow: 0 16px 31px -17px rgba(0, 31, 97, 0.6);
     border: 5px solid #000;
@@ -128,12 +129,14 @@ button:hover {
     outline: none;
 }
 
+.fa-times::before {
+     background-color: #ff8a00;
+ }
+
 .social-panel p {
-    background-color: #000;
-    border-radius: 0 0 10px 10px;
     color: #fff;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 38px;
     padding: 2px 17px 6px;
     position: absolute;
     top: 0;
@@ -151,6 +154,9 @@ button:hover {
 .social-panel p a {
     color: deepskyblue;
     text-decoration: none;
+    font-family: 'Dosis';
+    font-size: 19px;
+    font-weight: 800;
 }
 
 .social-panel h4 {
